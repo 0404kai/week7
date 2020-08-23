@@ -2,8 +2,8 @@
 @import "setting/mixin";
 @import "layout/header";
 @import "layout/footer";
-@import "pages/index/index";
-@import "pages/product_list/product-list";
-@import "pages/login_page/login-page";
-@import "pages/product_inside_page/product-inside-page.scss";
-@import "pages/member/member";
+@import "pages/index";
+@import "pages/product-list";
+@import "pages/login-page";
+@import "pages/product-inside-page.scss";
+@import "pages/member";
