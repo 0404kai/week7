@@ -10394,7 +10394,7 @@ h1 {
 }
 
 .bg-header {
-  background-image: url(../../images/layout/bg-footer-bottom.png);
+  background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/bg-footer-bottom.png?raw=true);
   height: 52px;
 }
 .bg-header ul li {
@@ -10405,14 +10405,14 @@ h1 {
 }
 
 .bg-footer {
-  background-image: url(../../images/layout/bg-footer.png);
+  background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/bg-footer.png?raw=true);
   background-repeat: no-repeat;
   background-position: center;
   height: 600px;
 }
 @media (max-width: 768px) {
   .bg-footer {
-    background: center no-repeat url(../../images/layout/footer-md.png);
+    background: center no-repeat url(https://github.com/0404kai/week7/blob/master/images/layout/footer-md.png?raw=true);
     background-size: cover;
   }
 }
@@ -10432,7 +10432,7 @@ h1 {
 }
 
 .bg-footer-bottom {
-  background-image: url(../../images/layout/bg-footer-bottom.png);
+  background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/bg-footer-bottom.png?raw=true);
   height: 80px;
 }
 .bg-footer-bottom p {
@@ -10453,14 +10453,14 @@ h1 {
 }
 
 .banner {
-  background-image: url(../../../images/index/bg-header.png);
+  background-image: url(https://github.com/0404kai/week7/blob/master/images/index/bg-header.png?raw=true);
   background-repeat: no-repeat;
   background-position: center;
   height: 870px;
 }
 @media (max-width: 768px) {
   .banner {
-    background-image: url(../../../images/layout/header-md.png);
+    background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/header-md.png?raw=true);
     background-size: cover;
     height: 500px;
   }
