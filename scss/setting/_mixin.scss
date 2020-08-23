@@ -3,6 +3,11 @@
     overflow: hidden;
     white-space: nowrap;
 }
+@mixin PC-l {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
 
 @mixin PC {
     @media (max-width: 992px) {
