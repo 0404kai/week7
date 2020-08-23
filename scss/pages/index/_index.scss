@@ -1,10 +1,10 @@
 .banner {
-    background-image: url(../../../images/index/bg-header.png);
+    background-image: url(https://github.com/0404kai/week7/blob/master/images/index/bg-header.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     height: 870px;
     @include iPad {
-        background-image: url(../../../images/layout/header-md.png);
+        background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/header-md.png?raw=true);
         background-size: cover;
         height: 500px;
     }
