@@ -1,0 +1,44 @@
+.bg-footer {
+    background-image: url(../../images/layout/bg-footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    @include iPad {
+        background: center no-repeat url(../../images/layout/footer-md.png);
+        background-size: cover;
+    }
+    h3 {
+        font-size: $font-size-xl;
+        line-height: 1.5;
+        white-space: nowrap;
+    }
+}
+.form {
+    input {
+        border: 2px solid #916000;
+        border-radius: 4px 0 0 4px;
+        padding: 20px;
+    }
+    button {
+        border-radius: 0 4px 4px 0;
+    }
+}
+.bg-footer-bottom {
+    background-image: url(../../images/layout/bg-footer-bottom.png);
+    height: 80px;
+    p {
+        color: $white;
+        margin-left: 20px;
+        margin-top: 12px;
+        white-space: nowrap;
+    }
+}
+.footer-link {
+    @include iPad {
+        width: 100%;
+    }
+    a {
+        color: $white;
+        font-size: $font-size-md;
+    }
+}
