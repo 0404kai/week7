@@ -1,10 +1,11 @@
 .bg-footer {
-    background-image: url(../../images/layout/bg-footer.png);
+    background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/bg-footer.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
     @include iPad {
-        background: center no-repeat url(../../images/layout/footer-md.png);
+        background: center no-repeat
+            url(https://github.com/0404kai/week7/blob/master/images/layout/footer-md.png?raw=true);
         background-size: cover;
     }
     h3 {
@@ -24,7 +25,7 @@
     }
 }
 .bg-footer-bottom {
-    background-image: url(../../images/layout/bg-footer-bottom.png);
+    background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/bg-footer-bottom.png?raw=true);
     height: 80px;
     p {
         color: $white;
