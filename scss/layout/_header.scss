@@ -39,6 +39,9 @@ h1 {
     &:last-child {
         margin-right: 0px;
     }
+    @include PC {
+        margin-right: 24px;
+    }
     img {
         padding-right: 4px;
     }
