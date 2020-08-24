@@ -10380,6 +10380,11 @@ h1 {
 .nav-item:last-child {
   margin-right: 0px;
 }
+@media (max-width: 992px) {
+  .nav-item {
+    margin-right: 24px;
+  }
+}
 .nav-item img {
   padding-right: 4px;
 }
