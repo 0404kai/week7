@@ -10360,6 +10360,24 @@ h1 {
   top: 0;
   width: 100%;
 }
+.pos .shopping-car {
+  position: relative;
+}
+.pos .shopping-car .number {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  width: 16px;
+  height: 13px;
+  line-height: 1;
+  color: #fff;
+  background-color: #916000;
+  border: 1px solid #916000;
+  border-radius: 7px;
+}
 .pos .navbar {
   position: relative;
 }
@@ -10397,25 +10415,6 @@ h1 {
   .pos .nav-item {
     width: 100%;
   }
-}
-
-.shopping-car {
-  position: relative;
-}
-.shopping-car .number {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  display: block;
-  text-align: center;
-  font-size: 12px;
-  width: 16px;
-  height: 13px;
-  line-height: 1;
-  color: #fff;
-  background-color: #916000;
-  border: 1px solid #916000;
-  border-radius: 7px;
 }
 
 .nav-item {
