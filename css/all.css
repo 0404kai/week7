@@ -10355,6 +10355,50 @@ h1 {
   z-index: 9999;
 }
 
+.pos {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.pos .navbar {
+  position: relative;
+}
+.pos .navbar-toggler {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.pos .navbar-nav {
+  opacity: 0;
+}
+.pos .navbar .active {
+  opacity: 1;
+}
+.pos .nav-link {
+  font-size: 1.25rem;
+}
+@media (max-width: 768px) {
+  .pos .navbar-toggler {
+    display: block;
+  }
+  .pos .navbar-toggler:focus {
+    outline: 0;
+  }
+  .pos .navbar-nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 9999;
+  }
+  .pos .nav-item {
+    width: 100%;
+  }
+}
+
 .shopping-car {
   position: relative;
 }
@@ -10409,50 +10453,6 @@ h1 {
 }
 .bg-header ul li a {
   color: #fff;
-}
-
-.pos {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.pos .navbar {
-  position: relative;
-}
-.pos .navbar-toggler {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-}
-.pos .navbar-nav {
-  opacity: 0;
-}
-.pos .navbar .active {
-  opacity: 1;
-}
-.pos .nav-link {
-  font-size: 1.25rem;
-}
-@media (max-width: 768px) {
-  .pos .navbar-toggler {
-    display: block;
-  }
-  .pos .navbar-toggler:focus {
-    outline: 0;
-  }
-  .pos .navbar-nav {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 100%;
-    transition: all 0.4s;
-    overflow: hidden;
-    flex-direction: column;
-    z-index: 9999;
-  }
-  .pos .nav-item {
-    width: 100%;
-  }
 }
 
 .bg-footer {
