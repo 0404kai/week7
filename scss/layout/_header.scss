@@ -20,6 +20,25 @@ h1 {
     position: absolute;
     top: 0;
     width: 100%;
+    .shopping-car {
+        position: relative;
+        .number {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: block;
+            text-align: center;
+            font-size: 12px;
+            width: 16px;
+            height: 13px;
+            line-height: 1;
+            color: #fff;
+            background-color: #916000;
+            border: 1px solid #916000;
+            border-radius: 7px;
+        }
+    }
+
     .navbar {
         position: relative;
     }
@@ -68,24 +87,6 @@ h1 {
     }
 }
 
-.shopping-car {
-    position: relative;
-    .number {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        display: block;
-        text-align: center;
-        font-size: 12px;
-        width: 16px;
-        height: 13px;
-        line-height: 1;
-        color: #fff;
-        background-color: #916000;
-        border: 1px solid #916000;
-        border-radius: 7px;
-    }
-}
 .nav-item {
     margin-right: 32px;
     &:last-child {
