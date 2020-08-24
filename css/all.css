@@ -10462,7 +10462,7 @@ h1 {
     right: 0;
     top: 100%;
     width: 100%;
-    transition: all 0.5s;
+    transition: all 0.4s;
     overflow: hidden;
     background: white;
     flex-direction: column;
