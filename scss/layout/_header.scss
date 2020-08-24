@@ -13,6 +13,8 @@ h1 {
     width: 128px;
     margin-top: 9px;
     margin-bottom: 0;
+    position: relative;
+    z-index: 9999;
 }
 .shopping-car {
     position: relative;
@@ -62,4 +64,86 @@ h1 {
             }
         }
     }
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar-toggler {
+    display: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    max-height: 0px;
+}
+
+.navbar .active {
+    max-height: 300px;
+}
+
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #3f5d45;
+    font-weight: bold;
+    padding: 0 30px;
+    display: block;
+}
+
+.navbar-link {
+    padding-left: 30px;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 100%;
+        transition: all 0.8s;
+        overflow: hidden;
+        background: white;
+        flex-direction: column;
+        z-index: 9999;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-item:hover {
+        background-color: #eaf0ed;
+    }
+
+    .navbar-link {
+        padding-left: 0;
+    }
+}
+
+.pos {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
