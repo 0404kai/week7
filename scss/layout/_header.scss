@@ -1,27 +1,33 @@
 body {
     line-height: 1.5;
 }
+
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 h1 {
-    @include text-hide;
-    background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/logo.png?raw=true);
-    background-repeat: no-repeat;
-    width: 128px;
-    margin-top: 9px;
-    margin-bottom: 0;
-    position: relative;
-    z-index: 9999;
+    a {
+        display: block;
+        @include text-hide;
+        background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/logo.png?raw=true);
+        background-repeat: no-repeat;
+        width: 128px;
+        margin-top: 9px;
+        margin-bottom: 0;
+    }
 }
+
 .pos {
     position: absolute;
     top: 0;
     width: 100%;
+
     .shopping-car {
         position: relative;
+
         .number {
             position: absolute;
             bottom: 26px;
@@ -78,7 +84,7 @@ h1 {
             transition: all 0.4s;
             overflow: hidden;
             flex-direction: column;
-            z-index: 9999;
+            z-index: 1;
         }
 
         .nav-item {
@@ -88,36 +94,35 @@ h1 {
 }
 
 .nav-item {
-    margin-right: 32px;
-    &:last-child {
-        margin-right: 0px;
-    }
-    @include PC {
-        margin-right: 24px;
-    }
     img {
         padding-right: 4px;
     }
+
     p {
         font-family: "SF Pro Text", Regular, serif;
         font-size: $font-size-md;
     }
+
     a {
+        display: block;
         text-decoration: none;
+        padding: 0 15px;
     }
 }
+
 .card {
     border: none;
 }
+
 .bg-header {
     background-image: url(https://github.com/0404kai/week7/blob/master/images/layout/bg-footer-bottom.png?raw=true);
     height: 52px;
+
     ul {
-        li {
-            margin-right: 28px;
-            a {
-                color: $white;
-            }
+        a {
+            display: block;
+            color: $white;
+            padding: 15px;
         }
     }
 }
